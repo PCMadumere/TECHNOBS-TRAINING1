@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="manageapp.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -14,6 +14,11 @@
   <body>
     <nav>
       <img src="images/managelogo.svg" alt="" />
+
+      <div class="navigation">
+        <i class='bx bx-menu'></i>
+        <i class='bx bx-x'></i>
+      </div>
 
       <ul>
         <li><a href="#">Pricing</a></li>
@@ -27,7 +32,7 @@
     </nav>
 
     <main id="main">
-      <div class="content">
+      <div class="main-content">
         <h1>Bring everyone together to build better products.</h1>
 
         <p>
@@ -42,7 +47,7 @@
     </main>
 
     <section id="article">
-      <div class="write-up">
+      <div class="article-writeup">
         <h2>What's different about Manage?</h2>
 
         <p>
@@ -52,7 +57,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="article-content-container">
         <div class="article-content">
           <div class="p-head">
           <p>01</p>
@@ -97,9 +102,10 @@
     <section id="testimonials">
       <h3>What they've said</h3>
 
-      <div class="comments">
-        <div class="comment">
+      <div class="testimonials">
+        <div class="testimonial" >
           <img src="images/avatar-ali.png" alt="" />
+          <div class="testimonial-header">
           <h5>Ali Bravo</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in
@@ -107,9 +113,11 @@
             quasi dolores?
           </p>
         </div>
+        </div>
 
-        <div class="comment">
+        <div class="testimonial">
           <img src="images/avatar-richard.png" alt="" />
+          <div class="testimonial-header">
           <h5>Richard Watts</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in
@@ -117,9 +125,11 @@
             quasi dolores?
           </p>
         </div>
+        </div>
 
-        <div class="comment">
+        <div class="testimonial">
           <img src="images/avatar-anisha.png" alt="" />
+          <div class="testimonial-header">
           <h5>Anisha Li</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in
@@ -127,9 +137,11 @@
             quasi dolores?
           </p>
         </div>
+        </div>
          
-        <div class="comment">
+        <div class="testimonial">
           <img src="images/avatar-shanai.png" alt="" />
+          <div class="testimonial-header">
           <h5>Shanai Gough</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in
@@ -137,9 +149,10 @@
             quasi dolores?
           </p>
         </div>
+        </div>
       </div>
 
-      <button class="comment-btn">Get Started</button>
+      <button class="testimonial-btn">Get Started</button>
     </section>
 
     <section id="team">
@@ -149,7 +162,7 @@
     </section>
 
     <footer id="footer">
-      <div>
+      <div class="img-sci">
         <a href="#">
             <img src="images/managelogo.svg" alt="" />
         </a>
@@ -192,5 +205,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="/script.js"></script>
   </body>
 </html>
